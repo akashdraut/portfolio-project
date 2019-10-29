@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f41b876c-85e6-4177-a57a-5f8df71530a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +13,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jobs/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -45,33 +41,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,6 +103,9 @@
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
