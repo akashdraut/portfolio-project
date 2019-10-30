@@ -2,13 +2,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% load staticfiles %}
+  {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>King Mufasa</title>
+    <title>{{ blog.title }}</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
 
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="{% static 'Resume.pdf' %}">Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% url 'allblogs' %}">Blog</a>
+                <a class="nav-link active" href="{% url 'allblogs' %}">Blog</a>
               </li>
             </ul>
           </div>
@@ -42,37 +42,16 @@
     </header>
 
     <main role="main">
+      <div class="container">
 
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Mufasa Portfolio</h1>
-          <p class="lead text-muted">Mufasa is well known as father of great king Simba. Taking idea from the fairy tell,
-              looking forward to make site like a king for rest of the people.</p>
-          <p>
-            <a href="mailto:akashdraut93@gmail.com" class="btn btn-primary my-2">Email me</a>
-          </p>
-          <img src="{% static 'IMG_1447211733807.jpg' %}" height="300"/>
-        </div>
-      </section>
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-
-          <div class="row">
-            {% for job in jobs.all %}
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="{{ job.image.url }}">
-                    <div class="card-body">
-                      <p class="card-text">{{ job.summary }}.</p>
-                    </div>
-                  </div>
-                </div>
-            {% endfor %}
-          </div>
-        </div>
+        <h1 class="text-center pt-3"> {{ blog.title }} </h1>
+          <br>
+          <p class="text-center">{{ blog.pub_date }}</p>
+        <img class="img-fluid" src="{{ blog.image.url }}" />
+        <br>
+        <br>
+        <p align="justify"> {{ blog.body }}... </p>
       </div>
-
     </main>
 
     <footer class="text-muted">
